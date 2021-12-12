@@ -1,0 +1,44 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.3;
+    max-width: 600px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 8, 81, 0.6)), url('./img/bg.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: #eee;
+}
+
+.btn {
+    color: #eee;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border: none;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.btn:active {
+    outline: none !important;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    color: #eee;
+}
+
+input[type=submit] {
+    padding: 9px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input-group-text {
+    border-radius: 0;
+    padding: 8px 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
